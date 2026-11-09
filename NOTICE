@@ -1,0 +1,36 @@
+# Data attribution
+
+The survey data in this repository is not ours. It is redistributed unchanged
+in `data/raw/` and in derived form in `data/clean/` under the terms of its
+licence.
+
+**Dataset:** 2018 Carr Wildfire Evacuation Survey Data
+
+**Authors:** Stephen D. Wong, Joan L. Walker, Susan A. Shaheen
+(University of California, Berkeley)
+
+**Publisher:** Zenodo, 2021
+
+**DOI:** [10.5281/zenodo.4408243](https://doi.org/10.5281/zenodo.4408243)
+
+**Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+**Files redistributed:**
+
+| File | MD5 (as published) |
+| --- | --- |
+| `data/raw/Wong_Carr_Wildfire_Dataset.csv` | `32e450c6c021d023b0d5c9bbc0cea94b` |
+| `data/raw/Wong_Carr_Wildfire_Survey.pdf` | `f159beba4883c87957c9977fdba35307` |
+
+The cleaning code is MIT licensed (see `LICENSE`). The cleaned files are
+derivative works of the dataset above and remain CC BY 4.0: reuse them with
+the citation above and a note that they were cleaned by this pipeline.
+
+No free-text answers are redistributed in `data/clean/`. See the cleaning
+report for why.
+
+Citation:
+
+> Wong, S. D., Walker, J. L., & Shaheen, S. A. (2021). *2018 Carr Wildfire
+> Evacuation Survey Data* [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.4408243

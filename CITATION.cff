@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use these cleaned files, cite the dataset below and note that they were produced by this pipeline."
+title: "Survey data cleaning: 2018 Carr Wildfire Evacuation Survey"
+abstract: "A reproducible pipeline that repairs a public Qualtrics export of the 2018 Carr Wildfire evacuation survey, documents every recoding decision, and publishes a cleaned analysis table."
+type: software
+license: MIT
+version: 0.1.0
+date-released: "2026-11-09"
+authors:
+  - family-names: Kumari
+    given-names: Shreya
+repository-code: "https://github.com/31242526-svg/survey-cleaning-case-study"
+keywords:
+  - survey data
+  - data cleaning
+  - reproducibility
+  - Qualtrics
+  - wildfire evacuation
+references:
+  - type: dataset
+    title: "2018 Carr Wildfire Evacuation Survey Data"
+    authors:
+      - family-names: Wong
+        given-names: Stephen D.
+        affiliation: "University of California, Berkeley"
+        orcid: "https://orcid.org/0000-0002-3638-3651"
+      - family-names: Walker
+        given-names: Joan L.
+        affiliation: "University of California, Berkeley"
+        orcid: "https://orcid.org/0000-0002-4407-0823"
+      - family-names: Shaheen
+        given-names: Susan A.
+        affiliation: "University of California, Berkeley"
+        orcid: "https://orcid.org/0000-0002-3350-856X"
+    doi: "10.5281/zenodo.4408243"
+    year: 2021
+    publisher:
+      name: Zenodo
+    license: CC-BY-4.0
