@@ -13,6 +13,7 @@ from pathlib import Path
 import pandas as pd
 
 from survey_clean import recode
+from survey_clean.io import SYSTEM_COLUMNS
 from survey_clean.pipeline import RACE_CATEGORIES, VARIABLES, Variable
 
 #: Open-ended narrative columns. They are not carried into the clean files.
@@ -142,7 +143,10 @@ def render_cleaning_report(context: ReportContext) -> str:
 
     race_table = _table(
         ["Result", "Count"],
-        [["Race indicators created", 6], ["Rows selecting two or more races", multi_race]],
+        [
+            ["Race indicators created", len(RACE_CATEGORIES)],
+            ["Rows selecting two or more races", multi_race],
+        ],
     )
     place_table = _table(
         ["Field", "Distinct before", "Distinct after"],
@@ -200,7 +204,7 @@ respondents and gives every column a meaningless name.
 | Responses read | {len(raw):,} |
 | Columns | {raw.shape[1]:,} |
 | Duplicate column names | 0 |
-| System columns moved to metadata | 9 |
+| System columns moved to metadata | {len(SYSTEM_COLUMNS)} |
 
 ## 3. Missing codes
 
