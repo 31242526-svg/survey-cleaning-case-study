@@ -1,0 +1,5 @@
+# The raw archive is byte-for-byte the published file: never rewrite its line
+# endings, or the checksum in the report stops matching Zenodo.
+data/raw/* -text
+
+*.pdf binary
