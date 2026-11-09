@@ -139,6 +139,10 @@ The cleaning code is MIT licensed. The cleaned files are derivative works and
 remain CC BY 4.0. Attribution and the exact files redistributed are listed in
 [`NOTICE`](NOTICE). No free-text answers are redistributed.
 
+The archive asks users to send a courtesy email to the lead author and to cite
+the related papers before reusing the data; see the
+[Zenodo record](https://doi.org/10.5281/zenodo.4408243) for that list.
+
 ## Citation
 
 If you use the cleaned files, cite the dataset (see `CITATION.cff`) and note
